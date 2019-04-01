@@ -1,0 +1,17 @@
+<section>
+	<div class="container d-flex justify-content-between">
+		<div class="card col-2 ">
+			<div>
+				<h5>{{cards[0].title}}</h5>
+			</div>
+			<div>
+				<p>{{cards[0].content}}</p>
+			</div>
+		</div>
+		<div class="card col-2">
+			<p>{{cards[1].title}}</p>
+			<button class="btn-primary" *ngFor="let button of cards[1].buttons">{{button}}</button>
+		</div>
+		
+	</div>
+</section>
